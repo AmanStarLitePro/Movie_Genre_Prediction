@@ -1,0 +1,20 @@
+Importing Libraries used in this project
+
+Using pandas from pandas Library 
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import LabelEncoder
+from scipy.sparse import hstack
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+Step-1 : Loading Data from Churn_Modelling.csv in pandas DataFrame
+
+Step-2 : Create a LabelEncoder object and Fit the encoder on your text labels and transform them to integers for both training and testing datasets
+
+Step-3 : Appointing Features and Target for Training Dataset and Testing Dataset
+
+Step-4 : Convert Y_train and Y_test values as integers as datatype of the Y value is in object form as declared in shape
+
+Step-5 : Comparing and Training Logistic Regression, SVC and MultinomialNB models and Prediction on training data and testing data and finding accuracy
