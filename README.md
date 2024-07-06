@@ -3,6 +3,6 @@ In the ever-evolving world of entertainment, movie genres play a pivotal role in
 
 # Download DataSet Used in this Project
 
-Add this Dataset to this folder while unzipping from git clone zip file
+Add this Dataset to this folder while unzipping zip file from git clone
 
 https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
